@@ -1,1 +1,32 @@
-<h1>eu sou 
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Interatividade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Teste de Interatividade com JavaScript</h1>
+    </header>
+    <main>
+        <button id="botao-exemplo">Clique em mim!</button>
+        <p id="mensagem-exemplo"></p>
+    </main>
+    <!-- Incluindo o JavaScript -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
